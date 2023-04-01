@@ -104,7 +104,7 @@ const App = () => {
 
   return (
       <div>
-          <Title>페이지 {counter}</Title>
+          <Title>빌드완료 : 페이지 {counter}</Title>
           <Form updateMainFood={updateMainFood} />
           <MainCard img={mainFood} onHandleHeartClick={handleHeartClick} />
           <Favorites favorites={favorites} />
